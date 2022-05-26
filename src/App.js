@@ -5,7 +5,6 @@ import Login from "./Components/Login";
 import SignUp from "./Components/SignUp";
 import HomePage from "./Pages/HomePage";
 
-
 export default function App() {
   return (
     <>
