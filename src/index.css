@@ -1,19 +1,23 @@
 * {
     padding : 0;
     margin : 0;
+    font-family: 'Gordita', sans-serif;
 }
 
 .header{
     display: flex;
     justify-content:center;
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-left: 2rem;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; */
     background-color: rgb(70, 73, 248);
+
 }
 h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
 }
 .headertext{
     display: inline-block;
@@ -21,10 +25,11 @@ h3{
     padding: 0.6rem;
     color: azure;  
 }
-.buttons{
-     display: flex;
-}
-.buttonlogin{
+.buttons {
+    display: flex;
+    margin: 1rem 2rem;
+  }
+/* .buttonlogin{
     display: flex;
     justify-content: flex-end;
     margin-left: 55rem;
@@ -35,11 +40,12 @@ h3{
    justify-content: flex-end;
    margin-left: 1rem;
    border-radius: 20px;
-}
+} */
 .traininfo{
     transition: box-shadow .2s;
     margin-top: 5rem;
     margin-left: 10rem;
+    color: #000000;
     width: 230px;
     height: 180px;
     border-radius: 10px;
@@ -66,4 +72,61 @@ h3{
 .locationimg{
     display: flex;
     justify-content: center;
+}
+
+.box{
+    margin-top: 4rem;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    margin-left: 38rem;
+    border-radius: 10px;
+}
+
+.lgb{
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Courier New';
+}
+.logb{
+    display: flex;
+    text-decoration: none;
+  background-color: rgb(8, 2, 124);
+  color: white;
+  padding: 0.6rem 1.6rem;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+h2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.boxsgn{
+    margin-top: 4rem;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    margin-left: 38rem;
+    border-radius: 10px;
 }

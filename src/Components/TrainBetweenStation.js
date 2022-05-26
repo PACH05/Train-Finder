@@ -3,7 +3,7 @@ import tbs from './tbs.png'
 export default function TrainBetweenStation() {
   return (
     <div>
-    <a href='https://enquiry.indianrail.gov.in/mntes/#'>
+    <a href='https://enquiry.indianrail.gov.in/mntes/q?opt=MainMenu&subOpt=tbs&excpType='>
   <div className='traininfo'>
     <div className='locationimg'>
       <img src={tbs} height={120} width ={120}></img>
@@ -15,3 +15,4 @@ export default function TrainBetweenStation() {
   </div>
   )
 }
+

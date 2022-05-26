@@ -4,7 +4,7 @@ import lstn from './lstn.png'
 export default function LiveStation() {
   return (
     <div>
-    <a href='https://enquiry.indianrail.gov.in/mntes/'>
+    <a href='https://enquiry.indianrail.gov.in/mntes/q?opt=MainMenu&subOpt=liveStation&excpType='>
   <div className='traininfo'>
     <div className='locationimg'>
       <img src={lstn} height={120} width ={120}></img>

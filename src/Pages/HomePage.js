@@ -30,9 +30,11 @@ function HomePage() {
 }
 
 const Wrapper = styled.div`
-display: flex;
-background-color: rgb(70, 73, 248);
-`; 
+  display: flex;
+  background-color: rgb(70, 73, 248);
+  justify-content: space-between;
+  align-items: center;
+`;
 
 export default HomePage;
 
